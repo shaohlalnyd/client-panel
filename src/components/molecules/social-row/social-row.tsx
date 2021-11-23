@@ -86,7 +86,7 @@ export const SocialRow: FC<ComponentProps> = (props) => {
                 <Remove onRemove={remove} onClose={handleClose} removingText={props.social.social_id}/>
             </Box>
         </Modal>
-        
+
 
     </SocialRowElement>
 }
